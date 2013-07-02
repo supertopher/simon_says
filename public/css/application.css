@@ -1,9 +1,31 @@
 .container {
   margin: 20px auto;
-  width: 600px;
+  width: 75%;
   padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+
 }
-th {
+header{
+  margin: 1em auto;
+  display: block;
+}
+header h1{
+  text-align: center;
+  display: block;
+  text-shadow: 5px 5px 0px #eee, 5px 5px 0px #707070;
+}
+/*th {
   text-align: left;
+}*/
+
+table{
+  margin-top: 3em;
+  width: 100%;
+}
+
+tr{
+  padding: 1em;
+  height: 10em;
+}
+td{
+  border: red 2px solid;
 }
