@@ -8,6 +8,19 @@ header{
   margin: 1em auto;
   display: block;
 }
+
+.hat_footer{
+  position:fixed;
+  right:0px;
+  bottom:0px;
+  height: 40em;
+}
+
+.button_form{
+  width: 15%;
+  display: block;
+  margin: auto;
+}
 header h1{
   text-align: center;
   display: block;
@@ -15,17 +28,17 @@ header h1{
 }
 /*th {
   text-align: left;
-}*/
+  }*/
 
-table{
-  margin-top: 3em;
-  width: 100%;
-}
+  table{
+    margin-top: 3em;
+    width: 80%;
+  }
 
-tr{
-  padding: 1em;
-  height: 10em;
-}
-td{
-  border: red 2px solid;
-}
+  tr{
+    padding: 1em;
+    height: 10em;
+  }
+  td{
+    border: red 2px solid;
+  }
